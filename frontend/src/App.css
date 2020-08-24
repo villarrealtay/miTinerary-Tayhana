@@ -1,0 +1,121 @@
+
+html *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Courier;
+}
+
+.fondo {
+  background-image: url(../src/images/mapa.jpeg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 52vh;
+  background-position: center center;
+  background-size: cover;
+}
+.logo img {
+  width: 50vh;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fotoMenu{
+  border: none !important;
+  width: 25%;
+  height: 25%;
+
+}
+
+.flecha img{
+  width: 15%;
+  display:block;
+  margin: 2% auto 0% auto;
+}
+.flecha{
+  text-align: center;
+  color: #B2A8A8;
+  margin: 2%;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1%;
+}
+
+.Carrus  {
+ 
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+  div.fotoAustralia {
+   padding: 10%;
+   clear: both;
+   background-size: cover;
+}
+
+.fotoAustralia h4 {
+  background-color: #C6C6BF;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.footer {
+  background-color: #2F2D2B;
+  color: #F1EEE6;
+  padding: 5vw;
+  display: flex;
+  flex-direction: row;
+  margin: 2% 0% 0% 0%;
+}
+.cajaUno, .cajaDos{
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  margin-right: 8%;
+} 
+.logoFooter img{
+  width: 50%;
+}
+
+.frase {
+  text-align: center;
+  font-size: 100%;
+  font-style: oblique;
+  margin: 3%;
+}
+.carousel-inner {
+  display: flex;
+  flex-direction: row;
+}
+ .barra{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ div.filtro{
+  text-align: center;
+  margin: 4%;
+  border-bottom: solid 1px #C6BBBB;
+
+ }
+
+ .formulario {
+  margin: 3%;
+  background-color: #C6BBBB;
+  opacity: 0.7;
+ }
+
+ .fondoForm {
+   background-image: url(../src/images/fondo.png);
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 52vh;
+   background-position: center center;
+   background-size: cover;
+ }
+ 
